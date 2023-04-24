@@ -12,7 +12,6 @@ public class Client {
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
             String city = reader.readLine();
             System.out.println(city);
-            //writer.println("Привет от клиента");
             Scanner scanner = new Scanner(System.in);
             String newCity = scanner.nextLine();
             writer.println(newCity);

@@ -28,10 +28,6 @@ public class Server {
                             out.println("NOT OK");
                         }
                     }
-                    //" Подключен клиент " + clientSocket.getPort());
-                    //System.out.println("New connection accepted");
-                    //
-                    // out.println(String.format("Hi %s, your port is %d", city, clientSocket.getPort()));
                 }
             }
         } catch (IOException e) {
